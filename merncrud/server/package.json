@@ -1,0 +1,27 @@
+{
+  "name": "dscwebapp",
+  "version": "1.0.0",
+  "description": "Simple CRUD app with NodeJS",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theobmgit/dscwebapp.git"
+  },
+  "author": "theobmgit",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/theobmgit/dscwebapp/issues"
+  },
+  "homepage": "https://github.com/theobmgit/dscwebapp#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.8",
+    "morgan": "^1.10.0"
+  }
+}
