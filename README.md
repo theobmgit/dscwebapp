@@ -2,10 +2,6 @@
 
 ## Folder Structure
 
-<b>merncrud</b>
+<b>merncrud</b> Simple CRUD website build with MERN.
 
-Simple CRUD website build with MERN.
-
-<b>rolebased</b>
-
-Updating...
+<b>rolebased</b> Updating...
