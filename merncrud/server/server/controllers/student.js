@@ -60,7 +60,7 @@ export function getStudentById(req, res) {
 export function updateStudentById(req, res) {
   const id = req.params.studentId;
   const setStudent = req.body;
-  Student.update({ _id: id }, { $set: setStudent })
+  Student.updateOne({ _id: id }, { $set: setStudent })
     .exec()
     .then(() =>
       res.status(200).json({
